@@ -7,7 +7,7 @@ import {
   FundOutlined,
   MenuOutlined,
 } from "@ant-design/icons";
-import logo from "../images/money_prism_logo.png";
+import logo from "../images/token_prism_logo.png";
 
 const Navbar = () => {
   const [activeMenu, setActiveMenu] = useState(true);
@@ -40,7 +40,7 @@ const Navbar = () => {
           size={{ xs: 24, sm: 32, md: 40, lg: 64, xl: 80, xxl: 100 }}
         />
         <Typography.Title level={2} className='logo'>
-          <Link to='/'>MoneyPrism</Link>
+          <Link to='/'>Token Prism</Link>
         </Typography.Title>
         <Button
           className='menu-control-container'

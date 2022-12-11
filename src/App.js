@@ -39,7 +39,7 @@ function App() {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            MoneyPrism <br /> All rights reserved
+            Token Prism <br /> All rights reserved
           </Typography.Title>
           <Space>
             <Link to='/'>Home</Link>
